@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #eeeeee;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+header, section {
+    min-width: 0;
+    margin-bottom: 16px;
+    padding: 16px;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+}
+
+h1, h2, h3, p {
+    margin: 0 0 12px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+h3 {
+    font-size: 17px;
+}
+
+.field {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+}
+
+button, input, select {
+    min-width: 0;
+    max-width: 100%;
+    min-height: 44px;
+    padding: 8px;
+    border: 1px solid #999999;
+    font: inherit;
+    color: inherit;
+    background: #ffffff;
+}
+
+input, select {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    background: #eeeeee;
+    overflow-wrap: anywhere;
+}
+
+button:hover {
+    background: #dddddd;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+:focus-visible {
+    outline: 2px solid #222222;
+    outline-offset: 2px;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+.form-actions, .task-actions, .task-heading {
+    display: flex;
+    gap: 8px;
+}
+
+.form-actions, .task-actions {
+    flex-wrap: wrap;
+}
+
+.task-card {
+    min-width: 0;
+    margin-top: 12px;
+    padding: 12px;
+    border: 1px solid #cccccc;
+}
+
+.task-heading {
+    align-items: flex-start;
+}
+
+.task-heading > :not(input) {
+    min-width: 0;
+}
+
+.task-heading input[type="checkbox"] {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    min-height: 20px;
+    margin: 4px 0 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.task-title, .task-meta {
+    overflow-wrap: anywhere;
+}
+
+.task-meta, footer {
+    color: #555555;
+}
+
+.task-completed {
+    background: #f3f3f3;
+}
+
+.task-completed .task-title {
+    text-decoration: line-through;
+}
+
+#message:not(:empty), #storage-warning {
+    padding: 12px;
+    border: 1px solid #999999;
+    background: #ffffff;
+}
