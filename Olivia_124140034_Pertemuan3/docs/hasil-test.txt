@@ -1,0 +1,26 @@
+
+> olivia-124140034-pertemuan3@0.0.0 test:run
+> vitest run
+
+
+[1m[30m[46m RUN [49m[39m[22m [36mv5.0.5 [39m[90mC:/Users/user/Documents/ITERA/ALL-TUGAS/Pengembangan Aplikasi WEB/Olivia_124140034_Pertemuan3[39m
+
+ [32m✓[39m src/tests/hooks.test.jsx [2m([22m[2m6 tests[22m[2m)[22m[32m 27[2mms[22m[39m
+ [32m✓[39m src/tests/components.test.jsx [2m([22m[2m5 tests[22m[2m)[22m[33m 325[2mms[22m[39m
+ [32m✓[39m src/tests/BookForm.test.jsx [2m([22m[2m6 tests[22m[2m)[22m[33m 1036[2mms[22m[39m
+   [32m✓[39m <BookForm /> [2m(4)[22m
+     [33m[2m✓[22m[39m memanggil onSubmit dengan data valid lalu mengosongkan form[33m 663[2mms[22m[39m
+ [32m✓[39m src/tests/App.test.jsx [2m([22m[2m8 tests[22m[2m)[22m[33m 5231[2mms[22m[39m
+   [32m✓[39m Aplikasi Manajemen Buku (integrasi) [2m(8)[22m
+     [33m[2m✓[22m[39m menambah buku dan menyimpannya ke localStorage[33m 451[2mms[22m[39m
+     [33m[2m✓[22m[39m mengedit buku[33m 908[2mms[22m[39m
+     [33m[2m✓[22m[39m menghapus buku setelah konfirmasi, dan membatalkan jika konfirmasi ditolak[33m 646[2mms[22m[39m
+     [33m[2m✓[22m[39m memfilter berdasarkan status[33m 853[2mms[22m[39m
+     [33m[2m✓[22m[39m mencari berdasarkan judul atau nama penulis[33m 1411[2mms[22m[39m
+     [33m[2m✓[22m[39m navigasi ke halaman Statistik menampilkan angka yang benar[33m 950[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m4 passed[39m[22m[90m (4)[39m
+[2m      Tests [22m [1m[32m25 passed[39m[22m[90m (25)[39m
+[2m   Start at [22m 17:07:41
+[2m   Duration [22m 6.85s[2m (tests 56%, environment 30%, setup 7%, transform 4%, import 3%)[22m
+

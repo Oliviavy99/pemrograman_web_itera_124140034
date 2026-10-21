@@ -1,0 +1,48 @@
+.book-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.book-form__heading {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.book-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.book-form__field label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.book-form__field input,
+.book-form__field select {
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.book-form__field .input--error {
+  border-color: #dc2626;
+  background: #fef2f2;
+}
+
+.book-form__error {
+  color: #dc2626;
+  font-size: 0.85rem;
+}
+
+.book-form__actions {
+  display: flex;
+  gap: 8px;
+}
